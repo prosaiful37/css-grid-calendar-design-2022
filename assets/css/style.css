@@ -1,0 +1,102 @@
+/* fons  */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Lobster+Two&family=Poppins:wght@400;500&display=swap');
+/* common css */
+body{
+    font-family: 'Lobster Two', cursive;
+    background-image: url(/assets/imges/);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.calenders{
+    background-color: #ffffff;
+}
+
+.calendar-container{
+    width: 500px;
+    height: 900px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(77, 138, 87);
+    background-color: rgb(77, 138, 87);
+
+    
+    
+}
+.calendar-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+/*------------------------------------------------ single calendar ------------------------------------------------------------------------------ */
+.single-calendar{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    
+}
+.calenders{
+    border-radius: 10px;
+}
+h1{
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+.calenders span{
+    color: #00ADEF;
+}
+.day, .date{
+    border: 2px solid #E9EDF6;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    
+}
+.date{
+    font-size: 15px;
+}
+.day{
+    font-size: 13px;
+    background-color: #E9EDF6;
+    font-weight: 900;
+
+}
+.fri{
+    background-color: rgb(223, 90, 117);
+}
+.fris{
+    color: rgb(223, 90, 117);
+}
+/*----------------------------------------------------------------------------------------------------- next button ---------------------------------------------------------------------- */
+
+
+.next{
+    display: flex;
+    justify-content: space-between;
+
+}
+.item a{
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 10px;
+    background-color: white;
+    padding: 5px  10px;
+    border-radius: 5px;
+    color: rgb(223, 90, 117);
+    float: right;
+}
+.item a span{
+    color: rgb(223, 90, 117);
+} 
+.item a:hover{
+    color: white;
+    background-color: black;
+    
+}
+
+
+
+
+
+/*---------------------------------------------------------- css media Quary responsive -----------------------------------------------------------------*/
